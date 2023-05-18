@@ -1,0 +1,39 @@
+@import url('https://fonts.google.com/specimen/PT+Serif?preview.size=18&preview.text_type=paragraph&query=serif');
+:root {
+    --heading-font-color: #1D3461;
+    --paragraph-font-color: #EBD2B4;
+
+    --heading-font:'https://fonts.google.com/specimen/Almendra+Display?preview.size=18&preview.text_type=paragraph&query=display&category=Display,Handwriting,Monospace', serif; 
+    --paragraph-font: 'https://fonts.google.com/specimen/Inconsolata?preview.size=18&preview.text_type=paragraph&category=Handwriting,Monospace', serif;
+
+    --nav-background-color: #D1AC00;
+    --nav-link-color: #4392F1;
+    --nav-hover-link-color: #50B2C0;
+    --nav-hover-background-color: #247BA0;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+#hero h1{
+    position: absolute;
+    top: 30px;
+    margin: 0;
+    width: 100%;
+    text-align:center;
+    color: #080708;
+}
+
+#hero article{
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
