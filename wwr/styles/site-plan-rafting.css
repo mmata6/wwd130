@@ -50,3 +50,46 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
+.section1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.section h3 {
+    margin: 0px 0px 25px 0px;
+    font-family:inter, sans-serif;
+    font-size: 500;
+}
+
+.section1 .colors {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+}
+
+.section1 .colors .color .color-img {
+    height: 200px;
+    primary-color: #2EC4B6;
+    margin-bottom: 15px;
+}
+
+.section1 .colors .color .color-img {
+    height: 200px;
+    secondary-color: #FED18C;
+    margin-bottom: 15px;
+}
+
+.section1 .colors .color .color-img {
+    height: 200px;
+    accent1-color: #D6EFFF;
+    margin-bottom: 15px;
+}
+
+.section1 .colors .color .color-img {
+    height: 200px;
+    accent2-color: #5BC3EB;
+    margin-bottom: 15px;
+}
