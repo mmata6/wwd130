@@ -15,8 +15,8 @@
 }
 body {
     font-family: var(--paragraph-font);
-    max-width: 960 pixels;
-    padding: 20 pixels;
+    max-width: 300 px;
+    padding: 20 px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
