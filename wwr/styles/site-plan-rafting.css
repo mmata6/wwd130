@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.google.com/specimen/Averia+Serif+Libre?preview.size=18&preview.text_type=paragraph&query=serif&category=Sans+Serif,Display,Handwriting,Monospace');
 :root {
     --primary-color: #2EC4B6;
     --secondary-color: #FED18C;
     --accent1-color: #D6EFFF;
     --accent2-color: #5BC3EB;
 
-    --heading-font: 'https://fonts.google.com/specimen/PT+Serif?preview.size=18&preview.text_type=paragraph&query=serif', serif;
-    --paragraph-font: 'https://fonts.google.com/specimen/IBM+Plex+Serif?preview.size=18&preview.text_type=paragraph&query=serif', serif;
+    --heading-font: 'https://fonts.google.com/specimen/Averia+Serif+Libre?preview.size=18&preview.text_type=paragraph&query=serif&category=Sans+Serif,Display,Handwriting,Monospace', serif;
+    --paragraph-font: 'https://fonts.google.com/specimen/Averia+Serif+Libre?preview.size=18&preview.text_type=paragraph&query=serif&category=Display,Monospace', serif;
 
     --nav-background-color: #D1AC00;
     --nav-link-color: #4392F1;
