@@ -1,7 +1,6 @@
 
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=PT+Serif&display=swap');
-</style>
 
 :root {
     --heading-font: <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"
@@ -51,7 +50,7 @@ nav a:hover {
 
 .section h3 {
     margin: 0px 0px 25px 0px;
-    font-family:inter, sans-serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 500px;
 }
 
