@@ -6,10 +6,6 @@
 :root {
     --heading-font: <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"
     --paragraph-font: <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=PT+Serif&display=swap" rel="stylesheet">
-    --nav-background-color: #D1AC00;
-    --nav-link-color: #4392F1;
-    --nav-hover-link-color: #50B2C0;
-    --nav-hover-background-color: #247BA0;
 }
 body {
     font-family: var(--paragraph-font);
