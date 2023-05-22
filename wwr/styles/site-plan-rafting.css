@@ -80,7 +80,7 @@ nav a:hover {
 
 .section1 .colors .color .color-img {
     height: 200px;
-    accent-color: #D6EFFF;
+    accent-color: #0072BB;
     margin-bottom: 15px;
 }
 
@@ -94,6 +94,38 @@ nav a:hover {
 
 .section1 .colors .color .color-img {
     height: 200px;
-    accent-color: #5BC3EB;
+    accent-color: #8FC93A;
     margin-bottom: 15px;
+}
+
+div {
+    list-style: none;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+div {
+    width:24px;
+    height: 24px;
+    background-color: #F7C59F;
+    border-radius: 50%
+    cursor: pointer;
+}
+
+primary-color {
+background-color: #004E89;
+}
+
+secondary-color {
+background-color: #E3170A;
+}
+
+accent1-color {
+background-color: #4B1D3F;
+}
+
+accent2-color {
+background-color: #FF8C42;
 }
