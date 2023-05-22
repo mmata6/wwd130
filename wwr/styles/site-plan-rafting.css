@@ -1,10 +1,5 @@
 @import url('https://fonts.google.com/specimen/Averia+Serif+Libre?preview.size=18&preview.text_type=paragraph&query=serif&category=Sans+Serif,Display,Handwriting,Monospace');
 :root {
-    --primary-color: #2EC4B6;
-    --secondary-color: #FED18C;
-    --accent1-color: #D6EFFF;
-    --accent2-color: #5BC3EB;
-
     --heading-font: 'https://fonts.google.com/specimen/Averia+Serif+Libre?preview.size=18&preview.text_type=paragraph&query=serif&category=Sans+Serif,Display,Handwriting,Monospace', serif;
     --paragraph-font: 'https://fonts.google.com/specimen/Averia+Serif+Libre?preview.size=18&preview.text_type=paragraph&query=serif&category=Display,Monospace', serif;
 
@@ -100,7 +95,7 @@ nav a:hover {
 
 .section1 .colors .color .color-img {
     height: 200px;
-    accent1-color: #D6EFFF;
+    accent-color: #D6EFFF;
     margin-bottom: 15px;
 }
 
@@ -114,6 +109,6 @@ nav a:hover {
 
 .section1 .colors .color .color-img {
     height: 200px;
-    accent2-color: #5BC3EB;
+    accent-color: #5BC3EB;
     margin-bottom: 15px;
 }
