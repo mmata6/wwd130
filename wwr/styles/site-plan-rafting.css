@@ -68,24 +68,12 @@ nav a:hover {
     grid-column-gap: 20px;
 }
 
-.section1 .colors .color .color-img {
-    height: 200px;
-    primary-color: #2EC4B6;
-    margin-bottom: 15px;
-}
-
 .section1 .colors {
     width: 75%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 20px;
-}
-
-.section1 .colors .color .color-img {
-    height: 200px;
-    secondary-color: #FED18C;
-    margin-bottom: 15px;
 }
 
 .section1 .colors {
