@@ -1,9 +1,20 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=PT+Serif&family=Playfair+Display&family=Source+Serif+Pro:ital@0;1&display=swap');
 
 :root {
-    --heading-font: <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"
+    --primary-color: #6699CC;
+    --secondary-color: #FFF275;
+    --accent1-color: #FF8C42;
+    --accent2-color: #FF3C38;
+    
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Playfair Display', serif;
+
+    --nav-background-color: #eee;
+    --nav-link-color: #A23E48;
+    --nav-hover-link-color: #407076;
+    --nav-hover-background-color: #D4F5F5;
 }
 body {
     font-family: var(--paragraph-font);
@@ -41,90 +52,4 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-}
-
-.section1 {
-    text-align: center;
-    margin-top: 150px;
-}
-
-.section h3 {
-    margin: 0px 0px 25px 0px;
-    font-family: 'DM Serif Display', serif;
-    font-size: 500px;
-}
-
-.section1 .colors {
-    width: 75%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 20px;
-}
-
-.section1 .colors {
-    width: 75%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 20px;
-}
-
-.section1 .colors {
-    width: 75%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 20px;
-}
-
-.section1 .colors .color .color-img {
-    height: 200px;
-    accent-color: #0072BB;
-    margin-bottom: 15px;
-}
-
-.section1 .colors {
-    width: 75%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 20px;
-}
-
-.section1 .colors .color .color-img {
-    height: 200px;
-    accent-color: #8FC93A;
-    margin-bottom: 15px;
-}
-
-div {
-    list-style: none;
-    padding: 24px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-div {
-    width:24px;
-    height: 24px;
-    background-color: #F7C59F;
-    border-radius: 50%
-}
-
-primary-color {
-background-color: #004E89;
-}
-
-secondary-color {
-background-color: #E3170A;
-}
-
-accent1-color {
-background-color: #4B1D3F;
-}
-
-accent2-color {
-background-color: #FF8C42;
 }
