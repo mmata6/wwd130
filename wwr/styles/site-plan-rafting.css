@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=PT+Serif&family=Playfair+Display&family=Source+Serif+Pro:ital@0;1&display=swap');
 
 :root {
-    --primary-color: #6699CC;
+    --primary-color: #A23E48;
     --secondary-color: #FFF275;
-    --accent1-color: #FF8C42;
+    --accent1-color: #6699CC;
     --accent2-color: #FF3C38;
     
     --heading-font: 'Playfair Display', serif;
