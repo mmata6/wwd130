@@ -1,8 +1,10 @@
-@import url('https://fonts.google.com/specimen/Averia+Serif+Libre?preview.size=18&preview.text_type=paragraph&query=serif&category=Sans+Serif,Display,Handwriting,Monospace');
-:root {
-    --heading-font: 'https://fonts.google.com/specimen/Averia+Serif+Libre?preview.size=18&preview.text_type=paragraph&query=serif&category=Sans+Serif,Display,Handwriting,Monospace', serif;
-    --paragraph-font: 'https://fonts.google.com/specimen/Averia+Serif+Libre?preview.size=18&preview.text_type=paragraph&query=serif&category=Display,Monospace', serif;
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=PT+Serif&display=swap');
+</style>
 
+:root {
+    --heading-font: <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"
+    --paragraph-font: <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=PT+Serif&display=swap" rel="stylesheet">
     --nav-background-color: #D1AC00;
     --nav-link-color: #4392F1;
     --nav-hover-link-color: #50B2C0;
@@ -10,7 +12,7 @@
 }
 body {
     font-family: var(--paragraph-font);
-    max-width: 960pixels;
+    max-width: 960px;
     padding: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -54,7 +56,7 @@ nav a:hover {
 .section h3 {
     margin: 0px 0px 25px 0px;
     font-family:inter, sans-serif;
-    font-size: 500;
+    font-size: 500px;
 }
 
 .section1 .colors {
