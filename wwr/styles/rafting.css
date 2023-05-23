@@ -49,6 +49,8 @@ nav a {
     display: block;
     width: 100%;
     height: auto;
-    position: absolute;
+}
+
+.hero article img {
     float: right;
 }
