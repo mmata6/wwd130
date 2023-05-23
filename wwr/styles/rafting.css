@@ -42,7 +42,8 @@ nav a {
 }
 
 #hero div article {
-    position: relative;
+    position: absolute;
+    float: right;
 }
 
 .hero img {
