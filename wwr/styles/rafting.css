@@ -15,9 +15,6 @@
 }
 
 a:link{text-decoration:none;}
-a:visited{text-decoration:none;}
-a:hover{text-decoration:none;}
-a:active{text-decoration:none;}
 
 body {
     max-width: 500px;
@@ -31,11 +28,11 @@ nav a {
     padding: 1rem;
 }
 
-#div {
+#hero div {
     position: relative;
 }
 
-#hero h1{
+#hero div h1 {
     position: absolute;
     top: 30px;
     margin: 0;
@@ -44,7 +41,7 @@ nav a {
     color: #080708;
 }
 
-#hero article{
+#hero div article {
     position: absolute;
 }
 
