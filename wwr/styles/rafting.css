@@ -49,9 +49,8 @@ nav a {
     display: block;
     width: 100%;
     height: auto;
-    position: absolute;
 }
 
-.article img {
+#article img {
     float: right;
 }
