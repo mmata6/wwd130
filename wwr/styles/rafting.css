@@ -51,3 +51,7 @@ nav a {
     height: auto;
     position: absolute;
 }
+
+img {
+    float: right;
+}
