@@ -102,8 +102,6 @@ nav a {
 
 header, .grid, footer {
 
-}
-
 .grid {
     display: grid;
     align-items: center;
@@ -119,6 +117,8 @@ aside {
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+}
+
 }
 
 
