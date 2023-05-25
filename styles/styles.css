@@ -17,6 +17,7 @@ nav a {
 
 h1 {
     color: steelblue;
+    border-bottom: #000;
 }
 
 main img {
@@ -97,10 +98,6 @@ nav a {
     font-size: 1.2rem;
     font-weight: 700;
     color: #fff; /% shorthand for white %/
-}
-
-main h1 {
-    border: 1px solid rgba(0, 0, 0, 0.2) ; /* why use rgba instead of hex here? */
 }
 
 
