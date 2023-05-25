@@ -99,5 +99,9 @@ nav a {
     color: #fff; /% shorthand for white %/
 }
 
+main h1 {
+    border: 1px solid rgba(0, 0, 0, 0.2) ; /* why use rgba instead of hex here? */
+}
+
 
 
