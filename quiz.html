@@ -14,11 +14,26 @@
     <!--Quiz Question-->
     1. Name at least one CSS frameworks.
     2. How can CSS be integrated into an HTML page?
-    3. What is the purpose of developing css2?
+    3. What is the purpose of css?
     4. How many ways you can display HTML elements?
 
-    <label>
-        Name:
-        <input type="text" name="name"/>
-    </label>
+    <label for="name">Name: </label>
+    <input type="text" id="q1" name="q1" />
+
+    <label for="css">CSS Integration: </label>
+    <textarea for="text" id="q2" name="q2">
+        How can CSS be integrated into an HTML page?
+    </textarea>
+
+    <label for="purpose">Purpose: </label>
+    <select name="text" id="q3" name="q3">
+        <option value="practice">For practice only</option>
+        <option value="define">Define, Apply, and Manage sets of style characteristics</option>
+        <option value="create">Create and Develop different codes</option>
+    </select>
+
+    <label for="number">Number: </label>
+    <input type="number" id="q4" name="q4" />
+    <input type="submit" value="Submit">
+
 </body>
