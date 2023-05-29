@@ -100,8 +100,6 @@ nav a {
     color: #fff;
 }
 
-header, .grid, footer {}
-
 .grid {
     display: grid;
     align-items: center;
