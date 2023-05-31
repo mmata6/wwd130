@@ -54,6 +54,8 @@ nav a {
     width: 100%;
     height: auto;
 }
-header {
-    grid: header;
+header h1 {
+    display: grid;
+    grid-template-columns: 4;
+    column-gap: 0px;
 }
