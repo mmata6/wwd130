@@ -63,9 +63,10 @@ header {
     max-width: 100px;
 }
 .logo img {
-    margin: 0 0.25rem 0 1rem;
+    margin: 1rem auto;
     width: 64px;
     height: auto;
+    position: relative;
 }
 h1 {
     font-size: 2rem;
