@@ -54,25 +54,3 @@ nav a {
     width: 100%;
     height: auto;
 }
-header {
-    margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 120px 0px 0px 0px 0px;
-    align-items: center;
-    border-bottom: 1px solid #080708;
-    max-width: 100px;
-}
-.logo img {
-    margin: 1rem auto;
-    width: 64px;
-    height: auto;
-    position: relative;
-}
-h1 {
-    font-size: 2rem;
-    font-family: sans-serif;
-}
-nav {
-    text-align: right;
-    font-family: sans-serif;
-}
